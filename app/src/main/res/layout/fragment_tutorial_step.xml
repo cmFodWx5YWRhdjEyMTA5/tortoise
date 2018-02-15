@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:paddingTop="75dp"
+        android:id="@+id/descriptionField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/white_70"
+        android:lineSpacingExtra="4sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/titleField"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:lineSpacingExtra="0sp"
+        android:layout_width="match_parent"
+        android:layout_height="75dp" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:visibility="invisible"
+        android:layout_below="@id/descriptionField"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/animationView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:scaleType="matrix"
+        android:layout_below="@id/descriptionField"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_marginBottom="30dp"
+        android:id="@+id/buttonBar"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:visibility="invisible"
+            android:textAllCaps="false"
+            android:background="@color/colorPrimary_90"
+            android:id="@+id/signInButton"
+            android:text="@string/sign_in"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <Button
+            android:visibility="invisible"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:textAllCaps="false"
+            android:id="@+id/createAccountButton"
+            android:text="@string/create_account"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="invisible"
+        android:id="@+id/layer"
+        android:layout_below="@id/descriptionField"
+        android:layout_above="@id/buttonBar"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/icon_secured"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:lineSpacingExtra="3sp"
+            android:gravity="center_horizontal"
+            android:text="@string/tutorial_step_6_description_sub_1" />
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/icon_free"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:lineSpacingExtra="3sp"
+            android:gravity="center_horizontal"
+            android:text="@string/tutorial_step_6_description_sub_2" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:background="@color/color_f5f5f5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="118dp">
+
+                <RelativeLayout
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:gravity="center_horizontal"
+                        android:text="@string/available_for_withdrawal"
+                        android:textSize="12sp"
+                        android:textColor="@color/color_757575"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/avaliableField"
+                        android:textSize="32sp"
+                        android:textColor="@color/color_212121"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <FrameLayout
+                android:background="@color/color_eeeeee"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="102dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:gravity="center_horizontal"
+                        android:text="@string/in_pending_deposit"
+                        android:textSize="12sp"
+                        android:textColor="@color/color_757575"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/pendingDepositField"
+                        android:textSize="24sp"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_margin="16dp"
+                    android:background="@color/color_eeeeee"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:gravity="center_horizontal"
+                        android:text="@string/in_pending_withdrawals"
+                        android:textSize="12sp"
+                        android:textColor="@color/color_757575"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/pendingWithdrawField"
+                        android:textSize="24sp"
+                        android:textColor="@color/color_bdbdbd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:id="@+id/pendingDescription"
+            android:text="@string/in_pending_description"
+            android:textSize="10sp"
+            android:textColor="@color/color_757575"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.android.nobug.view.listview.BaseListView
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.android.kreators.tortoise.view.hexagon.Hexagon
+        android:layout_centerInParent="true"
+        android:id="@+id/hexagon"
+        android:layout_width="310dp"
+        android:layout_height="310dp" />
+
+    <TextView
+        android:paddingTop="10dp"
+        android:paddingBottom="25dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/balanceField"
+        android:textSize="42sp"
+        android:textColor="@color/color_212121"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/balanceField"
+        android:text="@string/estimated_balance"
+        android:textSize="15sp"
+        android:textColor="@color/color_212121"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/balanceField"
+        android:text="@string/how_is_this_calculated"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/button"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center"
+        android:background="@android:color/holo_green_light"
+        android:id="@+id/stepField"
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <FrameLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="4dp"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:paddingBottom="5dp"
+            android:id="@+id/nickNameField"
+            android:textSize="12sp"
+            android:textColor="@color/color_757575"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:id="@+id/numberField"
+            android:textSize="12sp"
+            android:textColor="@color/color_757575"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <FrameLayout
+            android:id="@+id/line"
+            android:layout_marginBottom="15dp"
+            android:layout_below="@id/nickNameField"
+            android:background="@color/color_eeeeee"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_below="@id/line"
+            android:id="@+id/balanceField"
+            android:textSize="30sp"
+            android:textColor="@color/color_212121"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/nameField"
+            android:textSize="12sp"
+            android:textColor="@color/color_212121"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

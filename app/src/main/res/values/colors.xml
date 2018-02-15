@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3AB493</color>
+    <color name="colorPrimaryDark">#24A381</color>
+    <color name="colorAccent">#FFD701</color>
+
+    <color name="color_757575">#757575</color>
+    <color name="color_7f000000">#7f000000</color>
+
+    <color name="color_197c70">#197c70</color>
+    <color name="colorPrimary_90">#E63AB493</color>
+
+    <color name="facebookColor">#3B579D</color>
+    <color name="transparent_color">#00FFFFFF</color>
+
+    <color name="color_ef4b4c">#ef4b4c</color>
+    <color name="color_212121">#212121</color>
+    <color name="color_890000">#89000000</color>
+    <color name="color_dddddd">#DDDDDD</color>
+    <color name="color_bdbdbd">#BDBDBD</color>
+    <color name="color_eeeeee">#eeeeee</color>
+    <color name="color_f5f5f5">#f5f5f5</color>
+    <color name="color_d8d8d8">#d8d8d8</color>
+
+    <color name="black_40">#66000000</color>
+
+    <color name="white_10">#1AFFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="white_b2ffffff">#B2FFFFFF</color>
+
+
+<!--
+
+
+    100% — FF
+    95% — F2
+    90% — E6
+    85% — D9
+    80% — CC
+    75% — BF
+    70% — B3
+    65% — A6
+    60% — 99
+    55% — 8C
+    50% — 80
+    45% — 73
+    40% — 66
+    35% — 59
+    30% — 4D
+    25% — 40
+    20% — 33
+    15% — 26
+    10% — 1A
+    5% — 0D
+    0% — 00
+
+
+    -->
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="32dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/descriptionField"
+        android:textColor="@color/color_212121"
+        android:textSize="14sp"
+        android:text="@string/user_info_city_desctiption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_below="@id/descriptionField"
+        android:layout_marginTop="15dp"
+        android:id="@+id/cityInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/cityField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="@color/color_212121"
+            android:textSize="16sp"
+            android:hint="@string/city" />
+    </android.support.design.widget.TextInputLayout>
+
+</RelativeLayout>
+

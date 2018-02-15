@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="32dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/descriptionField"
+        android:textColor="@color/color_212121"
+        android:textSize="14sp"
+        android:text="@string/bank_info_account_select_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.android.nobug.view.listview.BaseListView
+        android:layout_below="@id/descriptionField"
+        android:layout_marginTop="15dp"
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
+

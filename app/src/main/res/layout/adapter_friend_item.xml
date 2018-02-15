@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/hexagonLayer"
+        android:layout_width="80dp"
+        android:layout_height="80dp">
+
+        <com.android.kreators.tortoise.view.hexagon.Hexagon
+            android:id="@+id/hexagon"
+            android:background="@color/transparent_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:id="@+id/stepField"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/color_212121"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_below="@id/hexagonLayer"
+        android:id="@+id/nameField"
+        android:textSize="12sp"
+        android:textColor="@color/color_212121"
+        android:lines="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="vpiCirclePageIndicatorStyle" format="reference"/>
+        <attr name="vpiIconPageIndicatorStyle" format="reference"/>
+        <attr name="vpiLinePageIndicatorStyle" format="reference"/>
+        <attr name="vpiTitlePageIndicatorStyle" format="reference"/>
+        <attr name="vpiTabPageIndicatorStyle" format="reference"/>
+        <attr name="vpiUnderlinePageIndicatorStyle" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CirclePageIndicator">
+        <attr name="indicator_centered" format="boolean" />
+        <attr name="indicator_fillColor" format="color" />
+        <attr name="indicator_pageColor" format="color" />
+        <attr name="android:orientation"/>
+        <attr name="indicator_radius" format="dimension" />
+        <attr name="indicator_snap" format="boolean" />
+        <attr name="indicator_strokeColor" format="color" />
+        <attr name="indicator_strokeWidth" format="dimension"/>
+        <attr name="android:background" />
+    </declare-styleable>
+
+
+    <declare-styleable name="PatternView">
+        <attr name="rowCount" format="integer" />
+        <attr name="columnCount" format="integer" />
+        <attr name="aspect">
+            <enum name="square" value="0" />
+            <enum name="lock_width" value="1" />
+            <enum name="lock_height" value="2" />
+        </attr>
+        <attr name="regularColor" format="color|reference" />
+        <attr name="errorColor" format="color|reference" />
+        <attr name="successColor" format="color|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="PatternLockTheme">
+        <attr name="patternViewStyle" format="reference" />
+    </declare-styleable>
+
+</resources>

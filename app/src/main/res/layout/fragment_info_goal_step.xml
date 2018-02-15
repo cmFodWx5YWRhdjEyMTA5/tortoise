@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="32dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/descriptionField"
+        android:textColor="@color/color_212121"
+        android:textSize="14sp"
+        android:text="@string/goal_info_step_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:paddingTop="20dp"
+        android:layout_below="@id/descriptionField"
+        android:id="@+id/editField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textColor="@color/color_212121"
+        android:textSize="16sp"
+        android:hint="@string/goal_step_5000" /> />
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/rateDescriptionField"
+        android:textColor="@color/color_757575"
+        android:textSize="12sp"
+        android:text="@string/estimated_interest_rate_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_above="@id/rateDescriptionField"
+        android:id="@+id/guideField"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:text="@string/estimated_interest_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_above="@id/guideField"
+        android:layout_below="@+id/editField"
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+</RelativeLayout>
+

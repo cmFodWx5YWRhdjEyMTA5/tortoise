@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.home.HomeActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:stateListAnimator="@null"
+        android:layout_gravity="bottom"
+        android:text="firends"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/friendsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:stateListAnimator="@null"
+        android:layout_gravity="bottom|right"
+        android:text="steps"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/stepButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:background="@color/black_40"
+        android:id="@+id/layer"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <fragment
+        android:layout_gravity="bottom"
+        android:id="@+id/myStepFragment"
+        android:name="com.android.kreators.tortoise.fragment.home.daily.MyStepFragment"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <fragment
+        android:layout_gravity="bottom"
+        android:id="@+id/friendStepFragment"
+        android:name="com.android.kreators.tortoise.fragment.home.friend.FriendStepFragment"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/modeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/com_facebook_button_icon"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+
+        <EditText
+            android:id="@+id/inputField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="search"
+            android:lines="1"
+            android:singleLine="true"
+            android:layout_toLeftOf="@+id/modeButton"
+            android:imeOptions="actionSearch" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/powered_by_google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/com_facebook_button_icon"/>
+
+    <com.android.nobug.view.listview.BaseListView
+        android:layout_below="@+id/searchBar"
+        android:layout_above="@+id/powered_by_google"
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
+

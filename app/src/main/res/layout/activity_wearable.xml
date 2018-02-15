@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:padding="33dp"
+        android:gravity="left"
+        android:id="@+id/descriptionField"
+        android:textSize="14sp"
+        android:textColor="@color/color_757575"
+        android:lineSpacingExtra="4sp"
+        android:text="@string/wearable_device_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.android.nobug.view.listview.BaseListView
+        android:layout_below="@+id/descriptionField"
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

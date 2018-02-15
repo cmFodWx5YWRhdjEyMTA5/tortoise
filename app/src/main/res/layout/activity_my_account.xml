@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@color/color_eeeeee"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:background="@android:color/white"
+            android:id="@+id/balanceLayer"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <TextView
+                android:id="@+id/balanceGuideField"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="18dp"
+                android:text="@string/current_balance"
+                android:textSize="12sp"
+                android:textColor="@color/color_212121"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_below="@id/balanceGuideField"
+                android:paddingTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/balanceField"
+                android:textSize="25sp"
+                android:textColor="@color/color_212121"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/transferButton"
+            android:text="@string/transfer_to_bank"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/name"
+            android:textSize="12sp"
+            android:textColor="@color/color_757575"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/nameField"
+            android:layout_alignParentRight="true"
+            android:textSize="14sp"
+            android:textColor="@color/color_212121"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/phone"
+            android:textSize="12sp"
+            android:textColor="@color/color_757575"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/phoneField"
+            android:layout_alignParentRight="true"
+            android:textSize="14sp"
+            android:textColor="@color/color_212121"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/address"
+            android:textSize="12sp"
+            android:textColor="@color/color_757575"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/addressField"
+            android:layout_alignParentRight="true"
+            android:textSize="14sp"
+            android:textColor="@color/color_212121"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/bank_account"
+            android:textSize="12sp"
+            android:textColor="@color/color_757575"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.android.kreators.tortoise.view.bank.BankAccount
+            android:layout_marginTop="15dp"
+            android:background="@drawable/sliding_background_border"
+            android:id="@+id/bankAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

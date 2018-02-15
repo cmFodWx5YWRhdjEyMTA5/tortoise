@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="facebook_app_id">1205031022941971</string>
+
+    <!--    commons    -->
+
+    <string name="app_name">Tortoise</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="alert_confirm">OK</string>
+    <string name="alert_cancel">Cancel</string>
+
+    <string name="network_error_message">Cannot connect to network.\nPlease check your network connection status.</string>
+
+    <string name="browser_download">Download has started.</string>
+    <string name="browser_title">Browser</string>
+    <string name="permissions">Allow app to access location data?</string>
+    <string name="accept">Allow</string>
+    <string name="rejection">Decline</string>
+
+    <string name="version_update">Update</string>
+
+    <string name="done">Done</string>
+
+    <string name="default_loading_comment">Loading Data.</string>
+
+    <string name="need_app_update_desc">A new version of Tortoise is now available. Please install the latest version from the app store.</string>
+    <string name="maintenance_title">Under maintenance</string>
+    <string name="maintenance_description">점검중입니다.</string>
+
+    <!--    drawer menus    -->
+
+    <string name="my_account">My Account</string>
+    <string name="history">History</string>
+    <string name="activity">Activity</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="wearable_device">Wearable Device</string>
+    <string name="settings">Settings</string>
+
+    <string name="deposit">Deposit</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="balance">Balance</string>
+
+    <string name="sign_in_with_facebook">Sign in with facebook</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password(Use more than 8 characters)</string>
+    <string name="hint_new_password">New Password(Use more than 8 characters)</string>
+    <string name="hint_confirm_password">Confirm Password(Use more than 8 characters)</string>
+
+    <string name="err_msg_email">invalid email</string>
+    <string name="err_msg_password">invalid password</string>
+    <string name="err_msg_confirm_password">invalid confirm password...</string>
+    <string name="err_msg_name">invalid name...</string>
+    <string name="err_msg_phone">invalid phone number...</string>
+    <string name="err_msg_birth">invalid birth...</string>
+    <string name="err_msg_address">invalid address...</string>
+
+    <string name="not_enough_message">입력된 내용이 없습니다.</string>
+    <string name="empty_input">입력된 내용이 없습니다.</string>
+
+    <string name="use_more_8_characters">Use more than 8 characters</string>
+    <string name="limit_characters">limited % characters</string>
+
+    <!--    settings    -->
+
+    <string name="preference">Preference</string>
+    <string name="daily_step">Daily Step</string>
+    <string name="daily_deposit">Daily Deposit</string>
+    <string name="bank_information">Bank Information</string>
+    <string name="set_unlock_pattern">Set unlock pattern</string>
+    <string name="pending_transfer">Pending Transfer</string>
+    <string name="change_password">Change Password</string>
+    <string name="privacy_and_sharing">Privacy <![CDATA[&]]> Sharing</string>
+    <string name="notifications">Notifications</string>
+
+    <string name="support">Support</string>
+    <string name="faq">FAQ</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="assessment">Assessment</string>
+
+    <string name="introduce">Introduce</string>
+    <string name="about_tortoise">About Tortoise</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="open_source_license">Open Source License</string>
+    <string name="version">Version</string>
+    <string name="sign_out">Sign Out</string>
+
+    <!--    tutorial    -->
+
+    <string name="tutorial_step_1_title">Welcome to Tortoise</string>
+    <string name="tutorial_step_2_title">Set your goals</string>
+    <string name="tutorial_step_3_title">Check your progress <![CDATA[&]]> Share with friends</string>
+    <string name="tutorial_step_4_title">Reach your goals <![CDATA[&]]> Make extra cash</string>
+    <string name="tutorial_step_5_title">Plan <![CDATA[&]]> Record your health habits</string>
+    <string name="tutorial_step_6_title">DIC Insured <![CDATA[&]]> Secured No transfer fees</string>
+
+    <string name="tutorial_step_1_description">Tortoise is the world’s first savings account for your fitness activities.</string>
+    <string name="tutorial_step_2_description">Customize your daily step goal and maximum daily savings amount to start savings seamlessly.</string>
+    <string name="tutorial_step_3_description">See live visual updates of your savings and walking steps. Share your accomplishments with friends on Facebook.</string>
+    <string name="tutorial_step_4_description">Reach your daily step goal and get an extra savings bonus every day.</string>
+    <string name="tutorial_step_5_description">Find opportunities to walk to your appointments and automatically book that time into your mobile calendar.</string>
+    <string name="tutorial_step_6_description">No fees <![CDATA[&]]> No minimum balance to maintain unlimited Deposits <![CDATA[&]]> Withdrawals from your account.</string>
+
+    <string name="tutorial_step_6_description_sub_1">Bank-level security of 256-bit encryption.\n(no information is stored on your phone)</string>
+    <string name="tutorial_step_6_description_sub_2">Move funds to and from Tortoise without\nincurring any service fees.</string>
+
+    <string name="agreement_description">By proceeding, you agree to Tortoise\'s\nTerms <![CDATA[&]]> Conditions and Privacy Policy.\nI must be 18 years of age or older to authorize bank account transfers.</string>
+    <string name="transfer_to_bank">Transfer to Bank</string>
+
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="bank_account">Bank Account</string>
+
+    <string name="signout_message">Are you sure you want to sign out?</string>
+
+    <string name="create_account">Get Tortoise</string>
+    <string name="send">Send</string>
+    <string name="forgot_password">Forgot Your Password</string>
+    <string name="forgot_password_underbar"><u>Forgot Your Password</u></string>
+    <string name="forgot_password_description">We will send you an email with instructions on how to creat new password.</string>
+
+    <string name="add_deposit_description">Please enter the amount</string>
+    <string name="add_deposit_field_hint">$5</string>
+
+    <string name="current_balance">Current Balance</string>
+    <string name="estimated_balance">Estimated Balance</string>
+    <string name="how_is_this_calculated"><u>HOW IS THIS CALCULATED?</u></string>
+    <string name="available_for_withdrawal">Available for Withdrawal</string>
+    <string name="available_now">Available Now</string>
+    <string name="withdraw_fund">Withdraw Funds</string>
+    <string name="in_pending_deposit">In pending deposit</string>
+    <string name="in_pending_withdrawals">In pending withdrawals</string>
+
+    <string name="in_pending_description">Money is available for withdrawal immediately after it completes the transfer process from your bank to your Tortoise Account.This process typically takes 2~3 business days.</string>
+
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+
+    <string name="saved_money_menual">You saved money for %s.</string>
+    <string name="saved_money_emoji">You saved money instead of %s.</string>
+    <string name="saved_money_walking">You saved money by walking %s by steps.</string>
+    <string name="withdraw_money">You withdrew money from Tortoise Account.</string>
+
+    <string name="daily_history_description">When you reach your daily step goal, you can get an extra Savings Bonus with your deposit.</string>
+    <string name="total_history_description">2.5% APY daily cash back on your Tortoise savings paid every 3 months.</string>
+
+    <string name="interest_on_apy">Interest on APY</string>
+    <string name="saving_bonus">Savings Bonus</string>
+
+    <string name="today">Today</string>
+    <string name="total">Total</string>
+
+    <string name="wearable_device_description">Select the wearable device in use and merge it with the step data.</string>
+
+    <string name="weeks_step_4">Last 4 Weeks</string>
+    <string name="my_steps">My Steps</string>
+
+    <string name="friend_steps">Friend\'s Steps</string>
+
+    <string name="confirm_pattern_title">Confirm your unlock pattern</string>
+    <string name="reset_pattern_title">Confirm password to reset pattern</string>
+
+    <string name="being_calculated">It\'s being calculated...</string>
+    <string name="balance_empty">Your account balance is less than the deposit amount. Change your deposit or add money to your balance.</string>
+
+    <string name="create_on">Create on</string>
+    <string name="estimated_clear_date_is">Estimated clear date is</string>
+
+    <string name="user_info">User Info</string>
+    <string name="bank_info">Bank Info</string>
+    <string name="set_your_goal">Set Your Goals</string>
+
+    <string name="user_info_title">Hello, Tortoise!</string>
+    <string name="bank_info_title">Bank Info</string>
+    <string name="goal_info_title">Set Your Goals</string>
+
+    <string name="user_info_description">We\’re so glad that you\’re ready to join Tortoise. Let\'s start by creating your account login.Fill out your profile.</string>
+    <string name="bank_info_description">We\’re so glad that you\’re ready to join Tortoise. Enter the bank information and enjoy the tortoise.</string>
+    <string name="goal_info_description">We\’re so glad you\’re ready to join Tortoise. Set your goals and enjoy your desired interest and fun.</string>
+
+    <string name="user_info_name_description">Tell us more about yourself. Your information is safe and secure.</string>
+    <string name="user_info_city_desctiption">City information is missing. Enter the city and go to the next step.</string>
+
+    <string name="bank_info_name_description">Select the online bank that you would like to use to save money.</string>
+    <string name="bank_info_account_description">Please log in to your % account</string>
+    <string name="bank_info_account_select_description">Select account type.</string>
+
+    <string name="goal_info_step_description">Set the number of steps you plan to walk per day.</string>
+    <string name="goal_info_depoisit_description">When your step target is achieved, commit to save in Tortoise account.</string>
+
+    <string name="estimated_interest_rate">Estimated interest rate %</string>
+    <string name="estimated_interest_rate_description">The American Heart Association recommends 10,000 steps/day to improve overall health. Walking more results in higher interest rates.</string>
+
+    <string name="bank_id">Bank User ID</string>
+    <string name="bank_password">Bank User Password</string>
+    <string name="bank_name">Bank Name</string>
+
+    <string name="next">Next</string>
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="hint_phone">Phone Number(000-00000-000)</string>
+    <string name="hint_birth">Date of Birth (MM/DD/YYYY)</string>
+    <string name="hint_address_1">Address 1</string>
+    <string name="hint_address_2_option">Address 2(Option)</string>
+
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="zip_code">Zip Code</string>
+
+    <string name="goal_step_5000">5000</string>
+    <string name="why_5">Why $5</string>
+    <string name="why_5_description">Estimated transportation cost of distances equivalent to 10000 steps is $5.79 (2015).</string>
+    <string name="submit">Submit</string>
+
+    <!--  patten  -->
+
+    <string name="pl_cancel">Cancel</string>
+    <string name="pl_confirm">Confirm</string>
+    <string name="pl_confirm_pattern">Draw the pattern again to confirm</string>
+    <string name="pl_continue">Continue</string>
+    <string name="pl_draw_pattern">Draw an unlock pattern</string>
+    <string name="pl_draw_pattern_to_unlock">Draw pattern to unlock</string>
+    <string name="pl_forgot_pattern">Forgot pattern</string>
+    <string name="pl_pattern_confirmed">Your new unlock pattern</string>
+    <string name="pl_pattern_recorded">Pattern recorded</string>
+    <string name="pl_pattern_too_short">Connect at least %d dots, please redraw</string>
+    <string name="pl_recording_pattern">Release finger when done</string>
+    <string name="pl_redraw">Redraw</string>
+    <string name="pl_wrong_pattern">Wrong pattern, please retry</string>
+
+    <string name="pl_access_pattern_start">Pattern started</string>
+    <string name="pl_access_pattern_cleared">Pattern cleared</string>
+    <string name="pl_access_pattern_cell_added">Cell added</string>
+    <string name="pl_access_pattern_cell_added_verbose">Cell <xliff:g id="cell_index" example="3">%1$d</xliff:g> added</string>
+    <string name="pl_access_pattern_detected">Pattern completed</string>
+    <string name="pl_access_pattern_area">Pattern area.</string>
+
+
+
+</resources>

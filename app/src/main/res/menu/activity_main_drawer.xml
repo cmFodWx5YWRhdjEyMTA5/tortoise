@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:checkable="false"
+            android:checked="true"
+            android:id="@+id/navAccount"
+            android:icon="@drawable/icon_my_account"
+            android:title="@string/my_account" />
+        <item
+            android:checkable="false"
+            android:checked="true"
+            android:id="@+id/navHistory"
+            android:icon="@drawable/icon_history"
+            android:title="@string/history" />
+        <item
+            android:checkable="false"
+            android:checked="true"
+            android:id="@+id/navActivity"
+            android:icon="@drawable/icon_activity"
+            android:title="@string/activity" />
+        <item
+            android:checkable="false"
+            android:checked="true"
+            android:id="@+id/navInvite"
+            android:icon="@drawable/icon_invitefriends"
+            android:title="@string/invite_friends" />
+        <item
+            android:checkable="false"
+            android:checked="true"
+            android:id="@+id/navWearable"
+            android:icon="@drawable/icon_wearabledevice"
+            android:title="@string/wearable_device" />
+        <item
+            android:checkable="false"
+            android:checked="true"
+            android:id="@+id/navSetting"
+            android:icon="@drawable/icon_settings"
+            android:title="@string/settings" />
+    </group>
+
+</menu>

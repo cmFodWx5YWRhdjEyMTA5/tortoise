@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.android.kreators.tortoise.view.hexagon.Hexagon
+        android:layout_centerInParent="true"
+        android:id="@+id/hexagon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:id="@+id/balanceField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/button"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center"
+        android:background="@android:color/holo_green_light"
+        android:id="@+id/stepField"
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

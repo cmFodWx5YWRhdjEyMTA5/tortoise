@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:paddingBottom="24dp"
+        android:gravity="left"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/descriptionField"
+        android:textSize="12sp"
+        android:textColor="@color/white_50"
+        android:text="@string/daily_history_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:id="@+id/bottomLine"
+        android:layout_margin="15dp"
+        android:layout_above="@+id/descriptionField"
+        android:background="@color/white_30"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <RelativeLayout
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_above="@+id/bottomLine"
+        android:id="@+id/balanceLayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/balanceField"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:text="@string/balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_above="@+id/balanceLayer"
+        android:id="@+id/withdrawLayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/withdrawField"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:text="@string/withdraw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:id="@+id/depositLayer"
+        android:layout_above="@+id/withdrawLayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/depositField"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:text="@string/deposit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_margin="15dp"
+        android:layout_above="@+id/depositLayer"
+        android:id="@+id/topLine"
+        android:background="@color/white_30"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <RelativeLayout
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/apyLayer"
+        android:layout_above="@+id/topLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/apyField"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:text="@string/interest_on_apy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_margin="10dp"
+        android:layout_above="@+id/apyLayer"
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:gravity="right"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/timeField"
+        android:lines="2"
+        android:textColor="@color/color_212121"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:background="@drawable/activity_icon_border"
+        android:id="@+id/holder"
+        android:layout_marginTop="44dp"
+        android:layout_marginLeft="60dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp">
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/imageView"
+            android:layout_width="28dp"
+            android:layout_height="28dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_toRightOf="@+id/holder"
+        android:gravity="center"
+        android:layout_marginTop="46dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/dateField"
+        android:textColor="@color/color_757575"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_toRightOf="@+id/holder"
+        android:layout_below="@id/dateField"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="9dp"
+        android:id="@+id/messageField"
+        android:textSize="12sp"
+        android:textColor="@color/color_212121"
+        android:lineSpacingExtra="4sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_toRightOf="@+id/holder"
+        android:layout_below="@id/messageField"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="9dp"
+        android:id="@+id/moneyField"
+        android:textSize="30sp"
+        android:textColor="@color/color_ef4b4c"
+        android:lineSpacingExtra="4sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="4dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="43dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/typeField"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
